@@ -543,14 +543,14 @@ class NativeWindow
 			#end
 
 			#if android
-			if (!value)
+			/*if (!value)
 			{
 				var updateSystemUI = JNI.createStaticMethod("org/haxe/lime/GameActivity", "updateSystemUI", "()V");
 				JNI.postUICallback(function()
 				{
 					updateSystemUI();
 				});
-			}
+			}*/
 			#end
 		}
 

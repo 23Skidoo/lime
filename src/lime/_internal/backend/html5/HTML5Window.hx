@@ -967,7 +967,7 @@ class HTML5Window
 	{
 		if (parent.application != null)
 		{
-			if (value >= 60)
+			if (value > 60)
 			{
 				if (parent == parent.application.window) parent.application.__backend.framePeriod = -1;
 			}
